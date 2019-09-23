@@ -15,7 +15,7 @@ int main()
 			cin >> i;
 			if (i >= 0) {
 				g = abs(a * i - x * i);
-				cout << abs(y - g) << "\n";
+				cout << (y + g) << "\n";
 			}
 			else {
 				cout << "Время не может быть отрицательным\n";
