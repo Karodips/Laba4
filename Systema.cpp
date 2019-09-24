@@ -12,8 +12,8 @@ int main() {
 	alg2 = -a2;
 	alg3 = -b1;
 	alg4 = a1;
-	a1 = alg1 * c1 + alg3 * c2;
-	a2 = alg2 * c1 + alg4 * c2;
+	a1 = koef*(alg1 * c1 + alg3 * c2);
+	a2 = koef*(alg2 * c1 + alg4 * c2);
 	cout << "x = " << a1 << "\ny= " << a2;
 	system("pause");
 	return 0;
